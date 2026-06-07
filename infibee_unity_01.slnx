@@ -1,3 +1,5 @@
 ﻿<Solution>
+  <Project Path="CoinRush.Runtime.csproj" />
+  <Project Path="CoinRush.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
 </Solution>
