@@ -209,14 +209,14 @@
       "url": "https://packages.unity.com"
     },
     "com.uvinteractives.coinrush": {
-      "version": "https://github.com/uv-i/coin-rush-unity-package.git",
+      "version": "https://github.com/uv-i/coin-rush-unity-package.git#1.0.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.ugui": "2.0.0",
         "com.unity.textmeshpro": "3.0.6"
       },
-      "hash": "b4d600a9629251f40933c07760213027cd02f1c1"
+      "hash": "eb449559592aa02a00e84ec0797cd48f7235c632"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
