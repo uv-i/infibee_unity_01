@@ -218,6 +218,16 @@
       },
       "hash": "eb449559592aa02a00e84ec0797cd48f7235c632"
     },
+    "com.uvinteractives.learn.oop-pillars": {
+      "version": "https://github.com/uv-interactives/uvi-learn-oop-pillars.git#1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "hash": "57353c05800bff5e670178edb6a94b3a1e5d64a5"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
