@@ -1,25 +1,29 @@
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+namespace Shared
 {
-    public GameObject prefab;
-    public float minZ;
-    public float maxZ;
-
-    // Update is called once per frame
-    void Update()
+    public class Spawner : MonoBehaviour
     {
-        if ( Input.GetKeyDown ( KeyCode.S ) )
+        public GameObject prefab;
+        public float minZ;
+        public float maxZ;
+
+        // Update is called once per frame
+        void Update()
         {
-            SpawnObject ( ); 
-            Debug.Log ( "S Clicked" );
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                SpawnObject();
+                Debug.Log("S Clicked");
+            }
+        }
+
+        void SpawnObject()
+        {
+            var zValue = Random.Range(minZ, maxZ);
+            GameObject go = Instantiate(prefab);
+            go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y, zValue);
         }
     }
-
-    void SpawnObject ( )
-    {
-        var zValue = Random.Range ( minZ, maxZ );
-        GameObject go = Instantiate ( prefab );
-        go.transform.position = new Vector3( go.transform.position.x, go.transform.position.y, zValue);
-    }
 }
+
