@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe13a48c4f90dd0468d1299c9b42859b, type: 3}
+  m_Name: Questions
+  m_EditorClassIdentifier: Assembly-CSharp::TriviaCoreLoopFramework.QuestionSO
+  QuestionData:
+  - question: Click on Correct
+    answers:
+    - answer: Wrong 1
+      isCorrect: 0
+    - answer: Wrong 2
+      isCorrect: 0
+    - answer: Correct
+      isCorrect: 1
+  - question: Click on CorrectAns
+    answers:
+    - answer: CorrectAns
+      isCorrect: 1
+    - answer: WrongAns1
+      isCorrect: 0
+    - answer: WrongAns2
+      isCorrect: 0
