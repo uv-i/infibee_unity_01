@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe13a48c4f90dd0468d1299c9b42859b, type: 3}
+  m_Name: Questions
+  m_EditorClassIdentifier: Assembly-CSharp::TriviaCoreLoopFramework.QuestionSO
+  QuestionData:
+  - question: What is the capital city of France?
+    answers:
+    - answer: London
+      isCorrect: 0
+    - answer: Paris
+      isCorrect: 1
+    - answer: Rome
+      isCorrect: 0
+  - question: How many planets are in our Solar System?
+    answers:
+    - answer: 7
+      isCorrect: 0
+    - answer: 8
+      isCorrect: 1
+    - answer: 9
+      isCorrect: 0
+  - question: Which ocean is the largest on Earth?
+    answers:
+    - answer: Atlantic Ocean
+      isCorrect: 0
+    - answer: Indian Ocean
+      isCorrect: 0
+    - answer: Pacific Ocean
+      isCorrect: 1
+  - question: What is the hardest natural substance on Earth?
+    answers:
+    - answer: Gold
+      isCorrect: 0
+    - answer: Diamond
+      isCorrect: 1
