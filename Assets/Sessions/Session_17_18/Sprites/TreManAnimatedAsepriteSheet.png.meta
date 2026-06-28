@@ -1,0 +1,1145 @@
+fileFormatVersion: 2
+guid: 3aada594f09563c42b93923855a7d048
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 671
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e72b9f08884a1468e751594581cc2b
+      internalID: -663763746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 671
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fbef085e95a3547b006e5cfe833e34
+      internalID: -2050773320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 671
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01262d44acccb4d4486085e3eb5db418
+      internalID: 1954039392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 671
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09016d6f1b212d4daa2c13ff5a7bf7d
+      internalID: -1814532453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 671
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf3d3c3f58ec404ba0f71f235068feb
+      internalID: -687418222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 671
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896f159520ba58c45b89c4ab3d32db80
+      internalID: 288427336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 671
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f08420ffabcd034d869ebd94c0e9bd4
+      internalID: -1514274494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 543
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec838ae646cff043b9a3932420c381c
+      internalID: -1794280859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 543
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc844ad1eabc67f46b1025b51a2386c3
+      internalID: 1756665709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 543
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306e20b7be36ed14d9aa7e4f193ce628
+      internalID: 68222812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 543
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158fdaaf29f718e48ac7f18f96ebc464
+      internalID: 1699320582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 543
+        width: 79
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2405dd460e160b42b677b1a94905b22
+      internalID: 1733666663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 543
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d9886145bcd2344b99efb4913c9d23
+      internalID: 386170024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 543
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f78fd7c6873b468ceb3f7f1ae2e3c
+      internalID: 1873999495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 415
+        width: 85
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efee75da25ef968449756ef2ef63541d
+      internalID: -331058930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 415
+        width: 95
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1856c1b7b292fcf4da9fb37bda5863b6
+      internalID: -2001007798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 415
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f4f2eee47c3a54abba3caa6f7d2d28
+      internalID: -514893628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 410
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2332f97731d7d104398fd3e77975197d
+      internalID: -1542854071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 412
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12b28057a22d2e4898e363234b67fc7
+      internalID: -892075643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 416
+        width: 95
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6c8ab8cf3dd9344924a7c893a7ec20
+      internalID: 832000367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 480
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21fca4b6b283b94b83e60b39e6baba7
+      internalID: -858788708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 415
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46e268d675647147b785977a5e35326
+      internalID: 1252275403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 288
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2246c9ef7c2491f4cb63d531d1fbb578
+      internalID: 190755516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 288
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc79bb35d682e549a2c1ba5d3d32585
+      internalID: -462554893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 288
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a62ff55d3180546ae2a45584eb1a6c
+      internalID: 182206519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 287
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c852e236ca4206f4295e36f8383a1d73
+      internalID: 611274105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 287
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3965146e002fb4fb120ceaaa9ac7d0
+      internalID: -1585980584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 284
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9170555089d9e8a41a1c0562ae222091
+      internalID: 1577068114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 287
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bba8dc62a99004f8211f8377d8843f
+      internalID: -1137728209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 159
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3b010bfe658bf4dbaf141d8e08e8ab
+      internalID: 1411731525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 158
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058e02c081aa7af499fa420e6c2312d0
+      internalID: 674049147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 159
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e4e90d109bc2f45b1650bd72939a27
+      internalID: -858266432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 170
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd95019908176d842b71f51427673b27
+      internalID: -1994940988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 158
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9132f66c558ee5b458b617bb4c628eff
+      internalID: 1425850261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 159
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3288f370393f5fe41887f6b29f0c268f
+      internalID: -890486536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 159
+        width: 100
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e4d01fa3ee60c49929e48e5831b440
+      internalID: 1691929897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 159
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c47e6c942b888a44bb0c3a8e5dd61b7
+      internalID: -413292823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a3e6c957235ff47a602cc4442bf4be
+      internalID: -1567144486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 26
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b31c1192077f204284a95a0b10b3d7a
+      internalID: 1411420496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 30
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8ce16decaa60c45b0ef93dc53092d1
+      internalID: -1442434317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 30
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20840cf46bd7ca04a9b529088005c653
+      internalID: -1704033818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 31
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7d07865b72b9f489261b3b2c5b1f61
+      internalID: -1933789267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 31
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a13ded6fa24bf84d8b084d9ecbff3c4
+      internalID: 44810941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreManAnimatedAsepriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 26
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a6bbc20c360e64b898a0bbaeac9cf0
+      internalID: -128810197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 94e93a9cea903324db0bbc493320af81
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      TreManAnimatedAsepriteSheet_0: -663763746
+      TreManAnimatedAsepriteSheet_1: -2050773320
+      TreManAnimatedAsepriteSheet_10: 1699320582
+      TreManAnimatedAsepriteSheet_11: 1733666663
+      TreManAnimatedAsepriteSheet_12: 386170024
+      TreManAnimatedAsepriteSheet_13: 1873999495
+      TreManAnimatedAsepriteSheet_14: -331058930
+      TreManAnimatedAsepriteSheet_15: -2001007798
+      TreManAnimatedAsepriteSheet_16: -514893628
+      TreManAnimatedAsepriteSheet_17: -1542854071
+      TreManAnimatedAsepriteSheet_18: -892075643
+      TreManAnimatedAsepriteSheet_19: 832000367
+      TreManAnimatedAsepriteSheet_2: 1954039392
+      TreManAnimatedAsepriteSheet_20: -858788708
+      TreManAnimatedAsepriteSheet_21: 1252275403
+      TreManAnimatedAsepriteSheet_22: 1093719591
+      TreManAnimatedAsepriteSheet_23: 190755516
+      TreManAnimatedAsepriteSheet_24: -462554893
+      TreManAnimatedAsepriteSheet_25: 182206519
+      TreManAnimatedAsepriteSheet_26: 611274105
+      TreManAnimatedAsepriteSheet_27: -1585980584
+      TreManAnimatedAsepriteSheet_28: 1577068114
+      TreManAnimatedAsepriteSheet_29: -1137728209
+      TreManAnimatedAsepriteSheet_3: -1814532453
+      TreManAnimatedAsepriteSheet_30: 1411731525
+      TreManAnimatedAsepriteSheet_31: 674049147
+      TreManAnimatedAsepriteSheet_32: -858266432
+      TreManAnimatedAsepriteSheet_33: -1994940988
+      TreManAnimatedAsepriteSheet_34: 1425850261
+      TreManAnimatedAsepriteSheet_35: -890486536
+      TreManAnimatedAsepriteSheet_36: 1691929897
+      TreManAnimatedAsepriteSheet_37: -413292823
+      TreManAnimatedAsepriteSheet_38: -1567144486
+      TreManAnimatedAsepriteSheet_39: 1411420496
+      TreManAnimatedAsepriteSheet_4: -687418222
+      TreManAnimatedAsepriteSheet_40: -1442434317
+      TreManAnimatedAsepriteSheet_41: -1704033818
+      TreManAnimatedAsepriteSheet_42: -1933789267
+      TreManAnimatedAsepriteSheet_43: 44810941
+      TreManAnimatedAsepriteSheet_44: -128810197
+      TreManAnimatedAsepriteSheet_5: 288427336
+      TreManAnimatedAsepriteSheet_6: -1514274494
+      TreManAnimatedAsepriteSheet_7: -1794280859
+      TreManAnimatedAsepriteSheet_8: 1756665709
+      TreManAnimatedAsepriteSheet_9: 68222812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
