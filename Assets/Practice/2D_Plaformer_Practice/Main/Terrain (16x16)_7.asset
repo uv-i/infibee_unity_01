@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Tile_BrickWall
+  m_Name: Terrain (16x16)_7
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 18328090, guid: 7edb1c2c905bae6498133ed9060c1a1c, type: 3}
+  m_Sprite: {fileID: 61336276, guid: 08c730f484886ae41af120d4b6897d2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

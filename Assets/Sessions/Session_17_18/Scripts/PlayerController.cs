@@ -1,62 +1,79 @@
-using UnityEditor;
 using UnityEngine;
+using TMPro; // Required for updating the UI text
 
-[RequireComponent ( typeof ( Rigidbody2D ) )]
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-    [Header ( "Movement" )]
+    [Header("Movement")]
     public float moveSpeed = 8f;
     private float horizontalInput;
     [SerializeField] SpriteRenderer spriteRenderer;
 
-    //[Header ( "Jumping" )]
+    [Header("Jumping")]
     public float jumpForce = 16f;
-    public float jumpCutMultiplier = 0.5f; // For variable jump height
+    public float jumpCutMultiplier = 0.5f;
     private bool isGrounded;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
 
+    [Header("Coin UI Setup")]
+    public TextMeshProUGUI coinText; // Drag your UI Text component here in the Inspector
+    private int coinCount = 0;
+
     private Rigidbody2D rb;
 
-    void Start ( )
+    void Start()
     {
-        rb = GetComponent<Rigidbody2D> ( );
-        Debug.Log ( "Got Rigidbody" );
+        rb = GetComponent<Rigidbody2D>();
+        Debug.Log("Got Rigidbody");
+        UpdateCoinUI();
     }
 
-    void Update ( )
+    void Update()
     {
-        // Get input
-        horizontalInput = Input.GetAxis( "Horizontal" );
+        horizontalInput = Input.GetAxis("Horizontal");
 
-        // Check if grounded
-        isGrounded = Physics2D.OverlapCircle ( groundCheck.position, groundCheckRadius, groundLayer );
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-        // Jump
-        if ( Input.GetButtonDown ( "Jump" ) && isGrounded )
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.linearVelocity = new Vector2 ( rb.linearVelocity.x, jumpForce );
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
-        // Variable jump height (letting go of jump button early)
-        if ( Input.GetButtonUp ( "Jump" ) && rb.linearVelocity.y > 0 )
+        if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
         {
-            rb.linearVelocity = new Vector2 ( rb.linearVelocity.x, rb.linearVelocity.y * jumpCutMultiplier );
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * jumpCutMultiplier);
         }
 
-        //// Flip sprite based on direction
         spriteRenderer.flipX = horizontalInput >= 0 ? false : true;
     }
 
-    void FixedUpdate ( )
+    void FixedUpdate()
     {
-        // Apply horizontal movement
-        rb.linearVelocity = new Vector2 ( horizontalInput * moveSpeed, rb.linearVelocity.y );
+        rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
     }
 
-    private void OnDrawGizmos ( )
+    // Public method for the Coin script to call
+    public void CollectCoin()
     {
-        Gizmos.DrawSphere ( groundCheck.position, groundCheckRadius );
+        coinCount++;
+        UpdateCoinUI();
+    }
+
+    void UpdateCoinUI()
+    {
+        if (coinText != null)
+        {
+            coinText.text = "Coins: " + coinCount.ToString();
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (groundCheck != null)
+        {
+            Gizmos.DrawSphere(groundCheck.position, groundCheckRadius);
+        }
     }
 }

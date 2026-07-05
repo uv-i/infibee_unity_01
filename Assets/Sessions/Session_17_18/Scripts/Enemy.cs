@@ -5,6 +5,7 @@ public class Enemy : MonoBehaviour
     public float moveSpeed = 3f;
     public float bounceForce = 10f; // Force applied to player when they stomp the enemy
     private int direction = 1; // -1 for left, 1 for right
+    public float wallCheckRadius = 0.1f;
 
     public Transform wallCheck;
     public LayerMask groundLayer;
@@ -23,7 +24,7 @@ public class Enemy : MonoBehaviour
         rb.linearVelocity = new Vector2 ( direction * moveSpeed, rb.linearVelocity.y );
 
         // Check if hitting a wall to turn around
-        bool hittingWall = Physics2D.OverlapCircle ( wallCheck.position, 0.1f, groundLayer );
+        bool hittingWall = Physics2D.OverlapCircle ( wallCheck.position, wallCheckRadius, groundLayer );
         if ( hittingWall )
         {
             Flip ( );
@@ -66,6 +67,6 @@ public class Enemy : MonoBehaviour
 
     private void OnDrawGizmos ( )
     {
-        Gizmos.DrawSphere ( wallCheck.position, 0.1f );
+        Gizmos.DrawSphere ( wallCheck.position, wallCheckRadius);
     }
 }
