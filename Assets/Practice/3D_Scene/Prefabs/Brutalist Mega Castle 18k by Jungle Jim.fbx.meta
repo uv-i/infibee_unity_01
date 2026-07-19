@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 0155e7535cbf2754f9f96ae1822c1d3e
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beer Glass
+    second: {fileID: 2100000, guid: d47ca3fc7c431674784f98369550d6fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Concrete_Tiles_slglipg_2K
+    second: {fileID: 2100000, guid: b6bd889b263f1e14b90f29c1c2231f8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Wall_007
+    second: {fileID: 2100000, guid: 7f7fb7a721783884aa93e6200bb10bb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emissive yellow
+    second: {fileID: 2100000, guid: 354afbf23cd0c4e41a96948f6fe7672e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Concrete_Blocks_010
+    second: {fileID: 2100000, guid: 5f59d7fc4a536394c800c1a90b3e8d7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_Hero_Rusty
+    second: {fileID: 2100000, guid: ce330717877103c43aa505663759a8d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rusted_shutter
+    second: {fileID: 2100000, guid: e2bd9d91b73bebb49bcd4c058f22470a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Black_Concrete_Tiles_slglipg_2K_AO
+    second: {fileID: 2800000, guid: 810c96abedf3e73489aef218af30f4b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Black_Concrete_Tiles_slglipg_2K_BaseColor
+    second: {fileID: 2800000, guid: a20cbe6741f88fb429c9cac54b1d4320, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Black_Concrete_Tiles_slglipg_2K_Normal
+    second: {fileID: 2800000, guid: fa6c1136b1c7b3840bcb9b1dcda22046, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Black_Concrete_Tiles_slglipg_2K_Roughness
+    second: {fileID: 2800000, guid: 34bd5351c971cd84cb4fc88d16ae027d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Black_Concrete_Tiles_slglipg_2K_Specular
+    second: {fileID: 2800000, guid: ef2087530bd30e14e9ad0f7d7f3ea36b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Wall_007_Base_Color
+    second: {fileID: 2800000, guid: ad12c0cc0df7a5c42a0236c8cb776018, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Wall_007_Height
+    second: {fileID: 2800000, guid: 92390ae330d9bd84594e9bbc8f6ab4c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Wall_007_Normal
+    second: {fileID: 2800000, guid: c043a0ab37660034396d8548aa654d96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Wall_007_Roughness
+    second: {fileID: 2800000, guid: 29a1bf43e57a7d445950a2e50f04a3e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Red_Concrete_Blocks_010_Base_Color
+    second: {fileID: 2800000, guid: ec1fe3d0a59162d46b15f7da07b15b80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Red_Concrete_Blocks_010_Height
+    second: {fileID: 2800000, guid: 67a6a605c0827214fae4ecc9116a6129, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Red_Concrete_Blocks_010_Normal
+    second: {fileID: 2800000, guid: 80d34418a4578014f8aef31ec3fa4dda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Red_Concrete_Blocks_010_Roughness
+    second: {fileID: 2800000, guid: 9e4eadd07414ea2409ae22a093d5a16b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rusted_shutter_diff_2k
+    second: {fileID: 2800000, guid: 975cf5a1d58d6d44bbf9c2f9c72b034d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rusted_shutter_disp_2k
+    second: {fileID: 2800000, guid: f75283e53672b444d8f8b6e562971cec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rusted_shutter_nor_gl_2k
+    second: {fileID: 2800000, guid: 031deff5b9053784a940639c8861f6c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rusted_shutter_rough_2k
+    second: {fileID: 2800000, guid: 17c750d1f791a14428335886d9c29d1d, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
