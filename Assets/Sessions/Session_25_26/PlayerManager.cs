@@ -6,6 +6,7 @@ public class PlayerManager : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
     [SerializeField] Vector2 moveInput;
+    [SerializeField] Animator animator;
 
     public Vector2 movement => moveInput;
 
@@ -40,10 +41,17 @@ public class PlayerManager : MonoBehaviour
         {
             moveInput.x = 0;
         }
+
+        animator.SetBool("IsIdle", moveInput.magnitude == 0.0f );
     }
 
     private void FixedUpdate ( )
     {
         rb.linearVelocity = new Vector3 ( moveInput.x, rb.linearVelocity.y, moveInput.y );
+    }
+
+    public void PlayFootStep()
+    {
+        SFXController.instance.PlaySfx ( );
     }
 }
